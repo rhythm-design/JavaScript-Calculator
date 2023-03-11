@@ -15,36 +15,36 @@
 			</tr>
 			<tbody>
 				<tr>
-					<td colspan="2"><button value="Clear">AC</button></td>
-					<td><button value="Delete">DEL</button></td>
-					<td><button value="/">÷</button></td>
+					<td colspan="2"><button value="Clear" onclick="clearInput()">AC</button></td>
+					<td><button value="Delete" onclick="deleteInput()">DEL</button></td>
+					<td><button value="/" onclick="addToInput('/')">÷</button></td>
 				</tr>
 
 				<tr>
-					<td><button value="1">1</button></td>
-					<td><button value="2">2</button></td>
-					<td><button value="3">3</button></td>
-					<td><button value="*">*</button></td>
+					<td><button value="1" onclick="addToInput('1')">1</button></td>
+					<td><button value="2" onclick="addToInput('2')">2</button></td>
+					<td><button value="3" onclick="addToInput('3')">3</button></td>
+					<td><button value="*" onclick="addToInput('*')">*</button></td>
 				</tr>
 
 				<tr>
-					<td><button value="4">4</button></td>
-					<td><button value="5">5</button></td>
-					<td><button value="6">6</button></td>
-					<td><button value="+">+</button></td>
+					<td><button value="4" onclick="addToInput('4')">4</button></td>
+					<td><button value="5" onclick="addToInput('5')">5</button></td>
+					<td><button value="6" onclick="addToInput('6')">6</button></td>
+					<td><button value="+" onclick="addToInput('+')">+</button></td>
 				</tr>
 
 				<tr>
-					<td><button value="7">7</button></td>
-					<td><button value="8">8</button></td>
-					<td><button value="9">9</button></td>
-					<td><button value="-">-</button></td>
+					<td><button value="7" onclick="addToInput('7')">7</button></td>
+					<td><button value="8" onclick="addToInput('8')">8</button></td>
+					<td><button value="9" onclick="addToInput('9')">9</button></td>
+					<td><button value="-" onclick="addToInput('-')">-</button></td>
 				</tr>
 
 				<tr>
-					<td><button value="1">.</button></td>
-					<td><button value="1">0</button></td>
-					<td colspan="2"><button value="1">=</button></td>
+					<td><button value="1" onclick="addToInput('.')">.</button></td>
+					<td><button value="1" onclick="addToInput('0')">0</button></td>
+					<td colspan="2"><button value="1" onclick="calculate()">=</button></td>
 				</tr>
 			</tbody>
 		</table>
