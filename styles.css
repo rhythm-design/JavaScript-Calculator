@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    background: rgb(0,176,244);
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+    justify-content: center;
+    margin: 0;
+}
+
+table{
+    margin:auto auto;
+    width: 32vw;
+    height: 50vh;
+    white-space: nowrap;
+    table-layout: fixed;
+
+}
+td{
+    width: auto;
+    max-width: 10px;
+    height: auto;
+    text-align: center;
+    overflow: hidden;  
+    height: 1vh;
+}
+
+input
+{
+    width: 100%;
+    height: 100%;
+    outline: 2px solid #effcfb;
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 30px;
+    text-align: right;
+    background-color: #00352e; 
+    color: ghostwhite;
+    font-weight: bolder;
+}
+button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    background-color: #bef4ed;
+    outline: 2px solid #effcfb;
+    border: none;
+    font-family: "Gotham Rounded", sans-serif;
+    font-size: 16px;
+}
